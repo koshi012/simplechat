@@ -7,7 +7,7 @@ from botocore.exceptions import ClientError
 import urllib.request
 
 #API建てて回収するとこ
-FASTAPI_URL = os.environ.get("FASTAPI_URL", "https://xxxxxxx.ngrok-free.app/generate")
+FASTAPI_URL = os.environ.get("FASTAPI_URL", "https://e6dc-34-106-185-128.ngrok-free.app")
 
 ##この辺不要かも：コメントアウト：S3,Bedrockは使わない
 # Lambda コンテキストからリージョンを抽出する関数
